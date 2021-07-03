@@ -1,4 +1,4 @@
-#!/home/enaya/Documents/hobby/snake/venv/bin/python3
+#!/home/enaya/Documents/ascii_snake/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
