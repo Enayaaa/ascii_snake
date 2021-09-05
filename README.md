@@ -5,4 +5,4 @@ A simple terminal ascii snake game
 `sudo venv/bin/python3 main.py`
 
 ## controls:
-Arrow keys
+Arrow keys or vim shortcuts (h, j, k, l)

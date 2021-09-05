@@ -52,13 +52,17 @@ def food_in_body(snake, food):
 
 
 def handle_input(e, snake):
-    if e.name == "up" and snake.direction != 2:
+    #if e.name == "up" and snake.direction != 2:
+    if (e.name == "k" or e.name == "up") and snake.direction != 2:
         snake.direction = 0
-    elif e.name == "right" and snake.direction != 3:
+    #elif e.name == "right" and snake.direction != 3:
+    elif (e.name == "l" or e.name == "right") and snake.direction != 3:
         snake.direction = 1
-    elif e.name == "down" and snake.direction != 0:
+    #elif e.name == "down" and snake.direction != 0:
+    elif (e.name == "j" or e.name == "down") and snake.direction != 0:
         snake.direction = 2
-    elif e.name == "left" and snake.direction != 1:
+    #elif e.name == "left" and snake.direction != 1:
+    elif (e.name == "h" or e.name == "left") and snake.direction != 1:
         snake.direction = 3
     elif e.scan_code == 16:
         curses.endwin()
